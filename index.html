@@ -113,6 +113,11 @@
     position: absolute; top: -56px; left: 0; width: 100%; height: calc(100% + 56px);
     border: 0;
   }
+  @media (max-width: 720px) {
+    .gallery-item.video-real iframe {
+      top: -74px; height: calc(100% + 74px);
+    }
+  }
   .gallery-item.video-real .caption {
     position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
     padding: 10px 12px 8px; font-size: 0.75rem; color: #fff;
